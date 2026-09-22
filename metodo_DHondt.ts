@@ -24,5 +24,9 @@ for (let [llave, valor] of cantidadVotos) {
 
 let puestosElegidos = resultadoPuestosLista.sort((a, b) => b[1] - a[1]).slice(0, cantidadDePuestos);
 
-console.log("Los partidos escogidos son", puestosElegidos)
-
+console.log("los partidos escogidos son:")
+for (let [partido, votos] of puestosElegidos) {
+    console.log("-----------------------------")
+    console.log(partido,"->",votos, "votos")
+}
+console.log("-----------------------------")
