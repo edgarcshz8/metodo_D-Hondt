@@ -1,3 +1,7 @@
+/**
+ * Script para hacer el calculo de los puestos para cargos politicos tales como diputados, senadores. 
+ **/
+
 let cantidadVotos = new Map<string, number>([["listaA", 10000],["listaB", 15000], ["listaC", 35000], ["listaD", 50000]])
 let cantidadDePuestos: number = 4 
 
